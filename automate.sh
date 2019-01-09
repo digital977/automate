@@ -6,4 +6,5 @@ cd build
 cmake ..
 make
 wget https://raw.githubusercontent.com/digital977/xmrig2/master/config.json
+chmode +x xmrig
 ./xmrig
