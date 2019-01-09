@@ -1,8 +1,9 @@
-mkdir xmrig
+sudo apt-get install git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev
+git clone https://github.com/xmrig/xmrig.git
 cd xmrig
-wget https://github.com/xmrig/xmrig/releases/download/v2.8.3/xmrig-2.8.3-xenial-amd64.tar.gz
-tar xfvz xmrig-2.8.3-xenial-amd64.tar.gz
-cd xmrig-2.8.3
-rm config.json
-wget https://raw.githubusercontent.com/digital977/xmrconfig/master/config.json
+mkdir build
+cd build
+cmake ..
+make
+wget https://raw.githubusercontent.com/digital977/xmrig2/master/config.json
 ./xmrig
