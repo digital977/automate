@@ -1,4 +1,4 @@
-sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+sudo apt install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
 mkdir xmr-stack/build
 cd xmr-stack/build
 cmake ..
