@@ -1,6 +1,1 @@
-sudo apt install -y libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
-mkdir xmr-stack/build
-cd xmr-stack/build
-cmake ..
-sudo make install
-./xmr-stak --currency monero -o url.ofyoupool.com:1000 -u YOURWALLETADDRESS
+curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s '43ynfNWginKY8Lm2wiEEsi6fgmaA5Ktp21Vp1ETzTrh65GrYkweM1wJbe9ftybUrSPjWDx8ytUZwJH2pvgM8WPZxH5k3vDg'
